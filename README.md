@@ -9,3 +9,6 @@ How to work with Sigbro-auth with Javascript
 * Scan QR code with Sigbro Mobile
 * You will see Alert message with your accountRS.
 
+## More information
+* [documentation](https://github.com/Nxter/sigbro-auth)
+* [wordpress plugin](https://github.com/Nxter/nxter-sigbro-auth)
