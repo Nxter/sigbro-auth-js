@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Sigbro AUTH Javascript Example</title>
+    </head>
+
+    <body>
+        <h1>Hello world</h1>
+        <button onclick="show_qr_code()">LogIn via Sigbro</button>
+
+        <br/>
+
+        <center>
+            <svg xmlns="http://www.w3.org/2000/svg" id="sigbro_qrcode" style="width:20em; height: 20em; display:none">
+                <rect width="100%" height="100%" fill="#ffffff"></rect>
+                <path d fill="#000000"></path>
+            </svg>
+        </center>
+
+    </body>
+
+    <script src="js/qrcodegen.js"></script>
+    <script src="js/sigbro.js"></script>
+</html>
